@@ -19,4 +19,7 @@ end
 def using_concat (array)
   array.concact
 end
+def using_uniq (array)
+  array.using_uniq
+end
 def
