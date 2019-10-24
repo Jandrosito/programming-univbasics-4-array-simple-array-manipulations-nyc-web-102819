@@ -15,10 +15,10 @@ def using_shift (array, array)
   array.shift 
 end
 def shift_with_args(array)
-  array.shift
+  array.shift(2)
 end
-def using_concat (array)
-  array.concact
+def using_concat (array, array2)
+  array.concact(array2)
 end
 def using_uniq (array)
   array.using_uniq
